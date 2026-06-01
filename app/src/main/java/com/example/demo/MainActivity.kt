@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.demo.phan4.ProfileScreen
 import com.example.demo.ui.navigation.AppNavHost
 
 
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             // Use the centralized NavHost
-            AppNavHost()
+            ProfileScreen()
         }
     }
 }
@@ -51,3 +52,5 @@ fun Test(){
         }
     }
 }
+
+
